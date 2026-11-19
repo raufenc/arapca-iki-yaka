@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Arapçanın İki Yakası</title>
+<meta name="description" content="Fasih ile ammice arasında köprü: CEFR'e göre A1–B2 Arapça öğretiminde dil çeşidi sorunu, dünyadan çözümler, Türkiye bağlamı ve bir program önerisi.">
+<meta property="og:title" content="Arapçanın İki Yakası">
+<meta property="og:description" content="Fasih mi, ammice mi? CEFR'e göre Arapça öğretiminin temel meselesi; araştırma, grafikler ve bir program önerisi.">
+<meta property="og:image" content="img/og.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0F1B2E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F1B2E'/%3E%3Crect x='6' y='13' width='20' height='6' rx='3' fill='%23D8932E'/%3E%3Crect x='6' y='13' width='10' height='6' rx='3' fill='%232F5A96'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="bar-top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#"><i aria-hidden="true"></i>Arapçanın İki Yakası</a>
+    <nav class="navlinks" aria-label="Bölümler">
+      <a href="#harita">Harita</a><a href="#cefr">CEFR</a><a href="#turkiye">Türkiye</a><a href="#oneri">Öneri</a><a class="cta" href="rapor.html">Tam rapor</a>
+    </nav>
+  </div>
+  <div class="progress" id="progress"></div>
+</header>
+
+<!-- KAPAK -->
+<div class="hero">
+  <img src="img/hero.jpg" alt="Bir nehrin iki yakasında kurulmuş Arap şehri: solda kütüphane ve medrese, sağda çarşı, ortada iki yakayı birleştiren köprüden geçen öğrenciler." fetchpriority="high">
+  <div class="wrap">
+    <div class="eyebrow">CEFR · A1–B2 · Arapça öğretimi</div>
+    <h1><span>Arapçanın</span><span>İki Yakası</span></h1>
+    <p class="sub">Arap çocuğu evde <b style="color:#F0B45E">ammiceyi</b>, okulda <b style="color:#A9C4F0">fasihi</b> öğrenir. Yabancı öğrenciye hangisini, hangi beceride, ne zaman öğretmeli? Dünyanın cevapları, rakamlar ve bir program önerisi.</p>
+    <div class="hero-band">
+      <a class="btn light" href="#ifadeler">Keşfe başla ↓</a>
+      <a class="btn ghost" href="#oneri">Doğrudan öneriye git</a>
+    </div>
+    <div style="max-width:560px;display:grid;gap:8px;margin-top:18px">
+      <div class="spec"></div>
+      <div class="hero-legend"><span>Fasih · kitap, haber, hutbe</span><span>Ammice · ev, çarşı, dizi</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- 1 · İFADELER -->
+<section id="ifadeler" class="paper">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">01 · SORUNU KULAKLA DUYMAK</div>
+      <h2>Aynı söz,<br>beş ağızda</h2>
+      <p class="lead">Kitapta öğrettiğimiz fasih cümle, Kahire'de, Şam'da, Riyad'da ve Fes'te bambaşka duyulur. Bir ifade seçin. Ağaç, lehçe biçiminin hangi fasih kelimeden aşınarak geldiğini gösteriyor.</p>
+    </div>
+    <div class="chips rv" id="chips" role="group" aria-label="İfade seç"></div>
+    <div class="explorer rv">
+      <svg class="tree" id="tree" viewBox="0 0 640 480" role="img" aria-label="Seçili ifadenin fasih biçimi ve dört lehçedeki karşılıkları"></svg>
+      <div style="display:grid;gap:16px">
+        <div class="figure" style="aspect-ratio:1/1"><img src="img/kokler.jpg" alt="Kökleri bir el yazması kitaba dönüşen, dalları Kahire, Şam, Körfez ve Fes siluetlerine uzanan zeytin ağacı." loading="lazy"></div>
+        <p class="small muted">Lehçe kelimelerin çoğu fasihin aşınmış biçimidir. Şam ağzındaki <bdi class="ar">شو</bdi> sözünün kökü <bdi class="ar">شيء هو</bdi>, <bdi class="ar">بدّي</bdi> sözünün kökü <bdi class="ar">بودّي</bdi> ifadesidir. Fasihi bilen öğrenci lehçeyi çözmeye yarım adım yakındır. Köken notları yaygın kabul gören açıklamalardır; lehçe biçimleri bölge içinde de değişir.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 · HARİTA -->
+<section id="harita">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">02 · ARAP DÜNYASININ AĞIZLARI</div>
+      <h2>Bir yazı dili,<br>beş büyük konuşma ailesi</h2>
+      <p class="lead">Fasih Fas'tan Umman'a aynı yazılır ve okunur. Konuşma ise kabaca beş aileye ayrılır; uzak aileler birbirini zor anlar. Ülkelerin üzerine gelin ya da bir aile seçin.</p>
+    </div>
+    <div class="mapgrid rv">
+      <div class="mapbox" id="mapbox"><svg id="map" viewBox="0 0 960 560" role="img" aria-label="Arap dünyasında lehçe ailelerini ve Türkiye'yi gösteren harita"></svg><div class="map-tip" id="tip"></div></div>
+      <div class="map-side">
+        <div class="glist" id="glist"></div>
+        <div class="card ginfo" id="ginfo" aria-live="polite"></div>
+      </div>
+    </div>
+    <p class="src" style="margin-top:14px">Harita sınırları Natural Earth (world-atlas 50m) verisinden; lehçe aileleri kabaca ve öğretim amacıyla gösterilmiştir, ülke içindeki farklılıklar dahil değildir.</p>
+  </div>
+</section>
+
+<!-- 3 · İKİ DÜNYA -->
+<section id="yelpaze" class="night">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">03 · İKİ DİL DEĞİL, BİR YELPAZE</div>
+      <h2>Ferguson iki kutup gördü.<br>Badavî beş basamak.</h2>
+    </div>
+    <div class="grid2 rv">
+      <div style="display:grid;gap:14px">
+        <div class="figure" style="aspect-ratio:4/3"><img src="img/fasih_alani.jpg" alt="Rahle üstünde açık Kur'an-ı Kerim, eski kitaplar, gazete ve haber mikrofonu bulunan sakin okuma salonu." loading="lazy"></div>
+        <h3 style="font-size:26px" class="f">Yüksek çeşit: fasih</h3>
+        <p class="small" style="color:var(--on-night-muted)">Okulda öğrenilir. Kur'an, kitap, gazete, haber bülteni, hutbe, resmî konuşma.</p>
+        <div class="domains" id="domF"></div>
+      </div>
+      <div style="display:grid;gap:14px">
+        <div class="figure" style="aspect-ratio:4/3"><img src="img/ammice_alani.jpg" alt="Eski bir Şam çarşısında sohbet eden esnaf ve müşteriler, çay bardakları ve kumaş topları." loading="lazy"></div>
+        <h3 style="font-size:26px" class="a">Alçak çeşit: ammice</h3>
+        <p class="small" style="color:var(--on-night-muted)">Evde ana dil olarak edinilir. Aile, arkadaş, çarşı, dizi, şarkı, sosyal medya.</p>
+        <div class="domains" id="domA"></div>
+      </div>
+    </div>
+    <p class="quote rv" style="margin:64px 0 48px">"Toplumun hiçbir kesimi gündelik sohbette Yüksek çeşidi kullanmaz."<br><span class="src" style="font-style:normal">Charles A. Ferguson, "Diglossia", <i>Word</i> 15 (1959) tezinin özeti</span></p>
+    <div class="cont-wrap rv">
+      <h3 style="font-size:28px">Badavî'nin beş seviyesi: "Ne istiyorsun?"</h3>
+      <div class="cont-track">
+        <div class="cont-rail"></div><div class="cont-dot" id="contDot"></div>
+        <input type="range" id="contRange" min="0" max="4" step="1" value="1" aria-label="Badavî seviyesi">
+      </div>
+      <div class="cont-ticks" id="contTicks"></div>
+      <div class="cont-out" id="contOut" aria-live="polite"></div>
+      <p class="src">es-Saîd Bedevî (1973), <bdi class="ar">مستويات العربية المعاصرة في مصر</bdi>. Örnek cümleler Şam bölgesi üzerinden temsilîdir. Gerçek konuşmada kişiler aynı cümlede basamak değiştirir: Mısır'daki panel konuşmalarında fasih ve ammice yapılar iç içe kullanılır (Mejdell 2006).</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4 · RAKAMLAR -->
+<section id="rakamlar" class="paper">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">04 · UÇURUM NE KADAR DERİN?</div>
+      <h2>Rakamlarla<br>mesafe ve zaman</h2>
+    </div>
+    <div class="grid2">
+      <div class="card rv">
+        <div class="eyebrow">Kelime mesafesi</div>
+        <h3 style="font-size:26px">Arap çocuğunun her 5 kelimesinden 3'ü fasihle bağlantılı</h3>
+        <svg class="chart" id="lexChart" viewBox="0 0 520 250" role="img" aria-label="Aynı yüzde 21, akraba yüzde 41, yalnız ammice yüzde 38"></svg>
+        <p class="small">Filistinli 5 yaş çocukların konuşmasından çıkarılan 4.500 kelime. Fasihle ammice iki ayrı dil gibi değil; ortak bir gövdeleri var.</p>
+        <p class="src">Saiegh-Haddad &amp; Spolsky (2014), <i>Handbook of Arabic Literacy</i>, Springer. Tek lehçe, tek yaş grubu.</p>
+      </div>
+      <div class="card rv">
+        <div class="eyebrow">Öğrenme süresi</div>
+        <h3 style="font-size:26px">Sık duyulan 2.200 saat nereden geliyor?</h3>
+        <svg class="chart" id="fsiChart" viewBox="0 0 520 250" role="img" aria-label="FSI dil grupları ve ders saatleri"></svg>
+        <p class="small">ABD Dışişleri Okulu (FSI): <b>İngilizce</b> konuşan bir diplomatın sıfırdan profesyonel yeterliğe (ILR 3, kabaca C1) gelmesi için gereken ders saati. Arapça en zor grupta.</p>
+        <p class="small muted">Bu rakam Türk öğrenciye doğrudan uymaz. Hedef C1, ölçü İngilizce konuşan yetişkin ve programda bir yıllık ülke içi eğitim var. Türk öğrenci harfleri Kur'an'dan tanır, Türkçede yaklaşık 6.500 Arapça kökenli kelime kullanır.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dli" class="night">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">05 · BİR DENEY</div>
+      <h2>Lehçeyle başlayan sınıf<br>ne yaşadı?</h2>
+      <p class="lead" style="color:var(--on-night-muted)">ABD Savunma Dil Enstitüsü (DLIFLC) on yıllarca önce fasih, kursun sonunda lehçe öğretti. 2009'da ilk gün lehçeyle başlayan 64 haftalık deneme sınıfları açtı (Irak, ardından Şam ağzı). Mezuniyette hedefe ulaşan öğrenci oranları:</p>
+    </div>
+    <div class="statrow rv" id="dliStats"></div>
+    <p class="lead rv" style="margin-top:36px">Enstitünün çıkardığı ders: lehçeyle başlayınca fasih okuma geriliyor. Sonraki sınıflara <b class="f">ilk günden günde bir saat fasih</b> eklendi. İki çeşit birlikte öğretilebiliyor ama ders saatini paylaşmak zorundalar.</p>
+    <p class="src rv" style="margin-top:12px">DLIFLC <i>Globe</i>, Ekim 2010 (Irak pilot sınıfı 26.02.2009 – 24.06.2010).</p>
+  </div>
+</section>
+
+<!-- 6 · DÜNYA -->
+<section id="dunya" class="paper">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">06 · DÜNYA NE YAPIYOR?</div>
+      <h2>Altı yol,<br>her birinin bir bedeli var</h2>
+      <p class="lead">Çubuklar, öğrencinin üretim yaptığı (konuştuğu ve yazdığı) dilin kabaca dağılımını gösteriyor: <span class="f">■ fasih</span> <span class="o">■ karma kayıt</span> <span class="a">■ ammice</span>. Ayrıntı için bir satıra dokunun.</p>
+    </div>
+    <div class="rv" id="appr"></div>
+    <div class="grid3 rv" style="margin-top:56px">
+      <div class="card"><span class="tag O">Bulgu</span><h3 style="font-size:21px">Kafa karışıklığı kanıtlanmadı</h3><p class="small">İkisini birlikte öğretmenin kafa karıştırdığını gösteren bir çalışma yok. Küçük laboratuvar çalışmalarında (26 ve 56 kişi) kelime öğrenmede anlamlı fark çıkmadı.</p></div>
+      <div class="card"><span class="tag W">Bedel</span><h3 style="font-size:21px">Ama saat paylaşılıyor</h3><p class="small">Uzun soluklu sonuç çalışması yok. Tek büyük saha verisi DLIFLC'nin: lehçe kazanılıyor, fasih okuma bir miktar geriliyor.</p></div>
+      <div class="card"><span class="tag F">İşaret</span><h3 style="font-size:21px">Fasih, lehçelerin anahtarı</h3><p class="small">Fasihi bilen öğrencilere ortak kök eğitimi verilince tanımadıkları lehçeyi anlama oranı %51'den %71'e çıktı (Soliman 2014, küçük örneklem).</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · CEFR -->
+<section id="cefr">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">07 · CEFR GERÇEKTE NE DİYOR?</div>
+      <h2>CEFR'in kendi merdiveni<br>çıkış yolunu gösteriyor</h2>
+      <p class="lead">"CEFR iletişimseldir, sokağı hedefler" diye düşünülür. Metne yakından bakınca iki şey çıkar. CEFR toplumdilsel yetinin tanımında <b>"lehçe ve aksan"</b>ı sayar ama bunun için tek bir tanımlayıcı yazmaz. Ayrıca resmî ve gayriresmî kayıt arasında seçimi <b>ancak B2'de</b> bekler. B1'e kadar istenen <b>"nötr kayıt"</b>tır.</p>
+    </div>
+    <div class="stairs">
+      <div class="figure rv"><img src="img/merdiven.jpg" alt="Lacivert gölgeden kehribar ışıklı bir avluya yükselen dört sahanlıklı taş merdiven ve çıkan bir öğrenci." loading="lazy"></div>
+      <div class="steps" id="steps"></div>
+    </div>
+    <div class="grid2" style="margin-top:56px">
+      <div class="card rv">
+        <span class="tag O">Kilit cümle</span>
+        <h3 style="font-size:23px">Aracılık iki çeşit arasında olabilir</h3>
+        <p>CEFR Ek Cilt'te aracılık ölçeklerinin önündeki not: A dili ile B dili "iki ayrı dil, <b>aynı dilin iki çeşidi</b>, aynı çeşidin iki kaydı ya da bunların bileşimi" olabilir; kullanıcılar uyarlarken çeşitleri belirtebilir.</p>
+        <p class="small muted">Bu not, "ammice bir sesli mesajı dinleyip fasih ya da Türkçe aktarır" gibi bir öğrenme çıktısını doğrudan meşru kılar.</p>
+        <p class="src">Council of Europe, CEFR Companion Volume (2018/2020).</p>
+      </div>
+      <div class="card rv">
+        <span class="tag W">Boşluk</span>
+        <h3 style="font-size:23px">"Standart" tanımsız</h3>
+        <p>Dinleme tanımlayıcıları sık sık "standart konuşma dili" der (B2: "gürültülü ortamda bile standart konuşma dilinde söyleneni ayrıntılı anlar"). Arapçada bunun ne olduğu tanımlı değil.</p>
+        <p class="small muted">İspanya'da Ocak 2026'da akademisyenler Avrupa Konseyi'ne "Standart yalnız fasih mi demek?" diye dilekçe gönderdi. Arapça için CEFR Referans Seviye Tanımları da henüz yok.</p>
+        <p class="src">change.org dilekçesi (11.01.2026); Soliman &amp; Familiar (2024).</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8 · TÜRKİYE -->
+<section id="turkiye" class="paper">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">08 · BİZİM ÖĞRENCİMİZ</div>
+      <h2>Türk öğrenci kiminle,<br>ne için konuşacak?</h2>
+      <p class="lead">Dünyada lehçe öğretimini savunan araştırmaların çoğu, Arap ülkesinde yaşayıp çalışacak Amerikalı üniversite öğrencisini, diplomatı ya da askeri hedefliyor. İmam Hatip'teki öğrencinin ihtiyaç haritası farklı.</p>
+    </div>
+    <div class="grid4 rv" id="needs"></div>
+    <div class="grid2" style="margin-top:56px">
+      <div class="card rv">
+        <span class="tag W">Mevzuat</span>
+        <h3 style="font-size:24px">Program bir karar vermek zorunda</h3>
+        <p>MEB ders kitabı inceleme ölçütü <b>KRT 6.2.4</b>: yabancı dil kitapları "öğretim programında <b>temel alınan lehçeye</b> özgü kullanım şekline uygun" hazırlanmalı.</p>
+        <p>Oysa 2–4, 5–8 ve AİHL 9–10 Arapça programlarında "fasih", "lehçe", "ammice" kelimeleri hiç geçmiyor. Tavan seviye A2.2, B1–B2 için program yok.</p>
+        <p class="small muted">Yeni bir A1–B2 programı dil çeşidini açıkça yazmazsa kitap yazarı neye uyacağını bilemez; inceleme paneli tek bir ammice kelimeyi hata sayabilir.</p>
+      </div>
+      <div class="card rv">
+        <span class="tag F">Akademi</span>
+        <h3 style="font-size:24px">Türkiye'deki görüş: fasih esas</h3>
+        <p>Musa Alp (2011): Fasih esas olmalı; ammice "az da olsa" öğretilmeli ama "sınırı iyi çizilmeli". Lehçe seçilecekse diziler sayesinde tanıdık olan Suriye ağzı.</p>
+        <p class="small muted">Taranan Türkçe literatürde tam lehçe öğretimini savunan bir çalışma bulunamadı. Endonezya, Malezya, İran ve Pakistan'da da hedef fasih; lehçe yalnız bazı üniversitelerde seçmeli.</p>
+        <p class="src">Alp, M. (2011). Ç.Ü. İlahiyat Fak. Dergisi 11(2): 87–110.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 9 · KARAR -->
+<section id="karar">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">09 · SEÇENEKLERİ TARTMAK</div>
+      <h2>Dört yol,<br>sizin ağırlıklarınızla</h2>
+      <p class="lead">Her ölçütün sizin için önemini kaydırın. Seçeneklerin 1–5 puanları bu çalışmanın değerlendirmesidir; gerekçeleri tam raporda. Kendi puanlarınızla sınamak için ağırlıklarla oynayın.</p>
+    </div>
+    <div class="dec rv">
+      <div class="card" id="weights"></div>
+      <div class="card"><div class="eyebrow">Sonuç (100 üzerinden)</div><div class="res" id="results" aria-live="polite"></div><p class="small muted" id="resNote"></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 10 · ÖNERİ -->
+<section id="oneri" class="night">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">10 · ÖNERİ</div>
+      <h2>Fasih gövde,<br><span class="a">ammice penceresi</span></h2>
+    </div>
+    <div class="figure rv" style="aspect-ratio:16/8;margin-bottom:40px"><img src="img/sinif.jpg" alt="Kulaklıklarla dinleyen lise öğrencilerinin olduğu bir sınıf; duvardaki büyük pencereden içeri bir Şam sokağının sıcak ışığı akıyor." loading="lazy"></div>
+    <div class="grid3 rv">
+      <div class="card"><div class="num">GÖVDE</div><h3 style="font-size:22px">Dört becerinin tamamında fasih</h3><p class="small" style="color:var(--on-night-muted)">Dinleme, okuma, konuşma, yazma: ölçülen her çıktı fasih. Dinî metin, sınavlar ve öğretmen kadrosuyla tam uyum.</p></div>
+      <div class="card"><div class="num">KONUŞMA</div><h3 style="font-size:22px">Vakıflı, sade "konuşma fasihi"</h3><p class="small" style="color:var(--on-night-muted)">Kelime sonlarında i'rab harekesi söylenmez; fasih ve lehçelerde ortak kelimeler seçilir (<bdi class="ar">بكم، طيّب، تفضّل</bdi>). Bir Arap bunu düzgün konuşan biri gibi duyar.</p></div>
+      <div class="card"><div class="num">PENCERE</div><h3 style="font-size:22px">A2'den itibaren kulak penceresi</h3><p class="small" style="color:var(--on-night-muted)">Her ünitede aynı sahne Şam ağzıyla dinletilir; öğrenci tanır, üretmez, sınava girmez. B2'de kayıt farkı; B1–B2'de aracılık.</p></div>
+    </div>
+    <h3 class="rv" style="font-size:28px;margin:64px 0 18px">Seviye × beceri haritası <span class="muted" style="font-size:16px;font-weight:500">· hücrelere dokunun</span></h3>
+    <div class="mx-wrap rv"><table class="mx" id="mx"></table></div>
+    <div class="mx-detail" id="mxDetail" aria-live="polite"></div>
+    <div class="card rv" style="margin-top:40px;border-color:var(--orta)">
+      <span class="tag O">Programa önerilen paragraf</span>
+      <p style="font-size:19px">"Programda temel alınan dil çeşidi, Kur'an-ı Kerim'in ve yazılı Arap kültürünün dili olan fasih Arapçadır (Modern Standart Arapça). Sözlü üretimde fasih Arapça, cümle sonlarında vakıf yapılarak doğal konuşma akışıyla kullanılır. A2 seviyesinden itibaren öğrencilerin Arap dünyasındaki gerçek iletişim durumlarını tanıması için yaygın ammice karşılıklar, yalnız dinleme/izleme amacıyla ve 'kulak penceresi' etkinliklerinde verilir. Bu karşılıklar üretim ve ölçme hedefi değildir; ders kitabında görsel olarak ayrı bir bölümde sunulur."</p>
+    </div>
+  </div>
+</section>
+
+<!-- 11 · ÇARŞI -->
+<section id="carsi" class="paper">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">11 · MODEL İŞ BAŞINDA</div>
+      <h2>A2 · Çarşıda fiyat sormak,<br>karşılaştırmak, almak</h2>
+      <p class="lead">CEFR sunumlarında sık kullanılan çarşı örneği, bu modelle iki katmanlı kuruluyor: öğrencinin konuştuğu gövde ve yalnız dinlediği pencere.</p>
+    </div>
+    <div class="figure rv" style="aspect-ratio:16/9;margin-bottom:36px"><img src="img/carsi.jpg" alt="Şam usulü bir giyim dükkânında elinde gömlekle fiyat soran Türk lise öğrencisi ve güleryüzlü dükkân sahibi." loading="lazy"></div>
+    <div class="grid2">
+      <div class="card rv">
+        <span class="tag F">Gövde · konuşma fasihi · öğrenci üretir</span>
+        <div class="dlg">
+          <div class="ln"><span class="ar">أَهْلًا وَسَهْلًا، تَفَضَّل</span><span class="who">Satıcı</span></div>
+          <div class="ln"><span class="ar">بِكَمْ هَذا القَميص؟</span><span class="who">Sami</span></div>
+          <div class="ln"><span class="ar">بِخَمْسينَ لِيرَة</span><span class="who">Satıcı</span></div>
+          <div class="ln"><span class="ar">غالٍ جِدًّا! هَلْ عِنْدَكَ أَرْخَص؟</span><span class="who">Sami</span></div>
+          <div class="ln"><span class="ar">نَعَم، هَذا بِثَلاثين</span><span class="who">Satıcı</span></div>
+          <div class="ln"><span class="ar">طَيِّب، سَآخُذُه. شُكْرًا</span><span class="who">Sami</span></div>
+        </div>
+        <p class="small">Cümle sonları vakıflı: <bdi class="ar">لِيرَة</bdi> denir, <bdi class="ar">لِيرَةٌ</bdi> denmez. Şu kelimeler hem fasihte hem bütün lehçelerde yaşıyor: <bdi class="ar">بِكَمْ، طَيِّب، تَفَضَّل، شُكْرًا</bdi>.</p>
+      </div>
+      <div class="window rv">
+        <span class="tag A">Kulak penceresi · Şam ağzı · öğrenci yalnız tanır</span>
+        <div class="dlg">
+          <div class="ln"><span class="ar">أهلين، تفضّل</span><span class="who">Satıcı</span></div>
+          <div class="ln"><span class="ar">قدّيش هاد القميص؟</span><span class="who">Müşteri</span></div>
+          <div class="ln"><span class="ar">بخمسين</span><span class="who">Satıcı</span></div>
+          <div class="ln"><span class="ar">غالي كتير! في أرخص؟</span><span class="who">Müşteri</span></div>
+          <div class="ln"><span class="ar">إي، هاد بتلاتين</span><span class="who">Satıcı</span></div>
+          <div class="ln"><span class="ar">منيح، باخدو. يسلمو</span><span class="who">Müşteri</span></div>
+        </div>
+        <p class="small"><b>Görev:</b> Öğrenci dinler, fiyatı ve müşterinin kararını işaretler. Sonra iki metni yan yana koyup benzeyen kelimeleri eşler: <bdi class="ar">كثير ← كتير، ثلاثين ← تلاتين، هذا ← هاد</bdi>. Ölçme dışıdır.</p>
+      </div>
+    </div>
+    <p class="src" style="margin-top:16px">Örnek diyaloglar bu çalışma için yazıldı; kitaba girmeden önce ana dili Arapça bir redaktörce kontrol edilmelidir.</p>
+  </div>
+</section>
+
+<!-- 12 · SAAT -->
+<section id="saat">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">12 · ZAMAN GERÇEKÇİ Mİ?</div>
+      <h2>Ders saatiniz<br>hangi seviyeye yeter?</h2>
+      <p class="lead">Cambridge'in İngilizce için verdiği birikimli rehberli öğrenme saatleri (A1 ≈95, A2 ≈190, B1 ≈375, B2 ≈550) bir Arapça zorluk katsayısıyla çarpılıyor. Katsayı tahmindir: İngilizce konuşan biri için FSI oranı yaklaşık 2,9; Türk öğrenci için çok daha düşük olması beklenir.</p>
+    </div>
+    <div class="card rv">
+      <div class="calc">
+        <label for="cW">Haftalık Arapça saati<input id="cW" type="number" min="1" max="40" value="10"></label>
+        <label for="cK">Yıllık hafta<input id="cK" type="number" min="1" max="52" value="36"></label>
+        <label for="cY">Yıl sayısı<input id="cY" type="number" min="1" max="6" value="2"></label>
+        <label for="cM">Arapça katsayısı<input id="cM" type="number" min="1" max="3" value="1.5" step="0.1"></label>
+      </div>
+      <svg class="chart" id="hourChart" viewBox="0 0 900 230" role="img" aria-label="Toplam saatin seviye eşiklerine göre konumu"></svg>
+      <p class="small muted">Rehberli öğrenme saati ders saatinden fazlasını kapsar (ödev, gözetimli çalışma); sonuç iyimser okunmalı. Karşılaştırma: AİHL 9. sınıf Arapça programı yılda 144 saat, 9–10 programının hedefi A2.2.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 13 · SÖZLÜK + RAPOR -->
+<section id="sozluk" class="paper">
+  <div class="wrap">
+    <div class="head rv">
+      <div class="num">13 · KISA SÖZLÜK</div>
+      <h2>Toplantıda kullanılacak<br>terimler</h2>
+    </div>
+    <div class="gloss rv" id="gloss"></div>
+    <div class="report-cta rv" style="margin-top:72px">
+      <div style="display:grid;gap:10px"><h3>Tam uzman raporu</h3><p>Yönetici özeti, dilbilim, dünyadaki yaklaşımlar, araştırma bulguları, CEFR metni, Türkiye bağlamı, seçeneklerin puanlanması, program önerisi ve kaynakça. Her bilginin yanında kaynağın güven düzeyi.</p></div>
+      <a class="btn light" href="rapor.html">Raporu oku →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div style="font-weight:700;color:var(--on-night)">Arapçanın İki Yakası</div>
+    <div>Kasım 2026. Lehçe örnekleri ve köken açıklamaları öğretim amaçlıdır; kitaba girmeden önce ana dili Arapça bir uzmanca doğrulanmalıdır. Resimler yapay zekâ tarafından üretilmiştir.</div>
+  </div>
+</footer>
+
+<script src="vendor/d3.min.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
